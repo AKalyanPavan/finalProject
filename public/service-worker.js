@@ -11,6 +11,11 @@ self.addEventListener('install', (ev) => {
 				"./../src/index.js",
 				"./../src/index.css",
 				"./manifest.json",
+				"./index.html",
+				"./../src/components/header.js",
+				"./../src/components/homePage.js",
+				"./../src/components/signupPage.js",
+				"./../src/components/genericComponents/button.js",
 				"./../src/icons/logo.js"
 			]);
 		}).catch((error) => {
